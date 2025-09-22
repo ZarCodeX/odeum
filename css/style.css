@@ -1,0 +1,243 @@
+body {
+    background: url('../Odeum/background-banner.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+		font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 600;
+}
+
+h3,h5 {
+  font-weight: 500;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+h3 {
+  line-height: 36px;
+}
+
+h5 {
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+
+p {
+    color: #707070;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+a {
+  text-decoration: none !important;
+  outline: none;
+}
+
+.section-title {
+  margin-bottom: 32px;
+}
+
+#intro .btn,
+#contact .btn {
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 0px;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: 14px 42px;
+    margin-top: 42px;
+    margin-right: 12px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#intro .btn-danger,
+#contact .btn-danger {
+    background: #c840d8;
+    border-color: transparent;
+}
+
+#contact .btn { 
+  border-radius: 100px;
+}
+
+#intro .btn-danger:hover {
+  background: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+#contact .btn-danger:hover {
+  background: #222;
+}
+
+#intro .btn-default:hover {
+    background: #0555cd;
+    color: #ffffff;
+    border-color: transparent;
+}
+
+.parallax-section {
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: none repeat scroll 0 0 #060007c2;
+}
+
+
+
+
+#intro {
+    color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+     display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+     -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#intro h3 {
+  letter-spacing: 2px;
+}
+
+
+
+
+
+.custom-navbar {
+    margin-bottom: 0;
+    background-color: #101010;
+}
+
+.custom-navbar .navbar-brand {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 40px;
+}
+
+.custom-navbar .nav li a {
+    color: #ddd;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    line-height: 40px;
+    transition: all 0.4s ease-in-out;
+}
+
+.custom-navbar .nav li a:hover {
+    background: transparent;
+    color: #0555cd;
+}
+
+.custom-navbar .navbar-nav > li > a:hover,
+.custom-navbar .navbar-nav > li > a:focus {
+  background-color: transparent;
+}
+
+.custom-navbar .nav li.active > a {
+    background-color: transparent;
+    color: #0555cd;
+}
+
+.custom-navbar .navbar-toggle {
+    border: none;
+    padding-top: 10px;
+}
+
+.custom-navbar .navbar-toggle {
+    background-color: transparent;
+}
+
+.custom-navbar .navbar-toggle .icon-bar {
+    background: #ffffff;
+    border-color: transparent;
+}
+
+@media(min-width:768px) {
+    .custom-navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        background: 0 0; 
+    }
+    .custom-navbar.top-nav-collapse {
+        background: #101010;
+        padding: 0;
+    }
+
+}
+
+
+
+
+
+
+
+@media (max-width: 980px) {
+
+  p {font-size: 13px;}
+
+  .custom-navbar .navbar-brand {
+    font-size: 2rem;
+  }
+
+  .custom-navbar .nav li a {
+    font-size: 11px;
+	line-height: 20px;
+  }
+
+  #intro { height: 65vh; }
+
+}
+
+@media (max-width: 768px) {
+
+  .custom-navbar .navbar-brand {
+    line-height: 20px;
+  }
+
+}
+
+@media (max-width: 760px) {
+
+  #intro {
+    height: 100vh;
+  }
+
+}
